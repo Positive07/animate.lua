@@ -29,7 +29,7 @@ local animation = animate.new(10) -- Initial value 10
 
 Generally you want to create a `playback` object from your `animation`
 ```lua
-local progress = animation:newPlayback()
+local playback = animation:newPlayback()
 ```
 
 Then in your main loop you would call `playback:update(dt)` to get the new value of the animation.
